@@ -8,5 +8,13 @@
 
 
 //getElementByClassName
-const heading=document.getElementsByClassName('demo');
-console.log(heading[0]);
+// const heading=document.getElementsByClassName('demo');
+// console.log(heading[0]);
+
+//quary selector
+// const heading=document.querySelector('#heading');
+// console.log(heading);
+
+//quarySelectorAll
+const heading=document.querySelectorAll('h1');
+console.log(heading[3]);
