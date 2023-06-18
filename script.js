@@ -1,2 +1,3 @@
-const parent=document.querySelector('.parent');
-console.log(parent.childNodes);
+const heading=document.querySelector('#child');
+console.log(heading.nextElementSibling);
+console.log(heading.previousElementSibling);
