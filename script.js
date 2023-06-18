@@ -1,3 +1,7 @@
-const heading=document.querySelector('#child');
-console.log(heading.nextElementSibling);
-console.log(heading.previousElementSibling);
+//Manipulation
+const paragraph=document.querySelector('#para');
+paragraph.innerHTML="javascript ";
+paragraph.style.color='red';
+paragraph.style.fontSize='100px';
+paragraph.classList.add("mikki");
+paragraph.classList.remove("mikki");
